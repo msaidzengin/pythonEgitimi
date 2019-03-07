@@ -1,0 +1,2 @@
+# pythonEgitimi
+Python Eğitim İçerikleri

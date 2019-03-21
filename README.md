@@ -1,8 +1,7 @@
-# pythonEgitimi
-Python Eğitim İçerikleri
+# BTK Python Eğitimi
 
 
-1. Hafta
+### 1. Hafta
 - Programlama nedir?
 - Algoritma nedir?
 - Algoritma neden önemlidir?
@@ -13,7 +12,6 @@ Python Eğitim İçerikleri
 - Compiler, interpreter nedir?
 - Syntax, semantics nedir?
 - Nesne tabanlı programlama nedir?
-
 - Python kurulumu
 - Python'ı tanıyoruz
 - Python ile Merhaba Dünya kodu
@@ -27,7 +25,7 @@ Python Eğitim İçerikleri
 - If-else yapısı
 
 
-2. Hafta
+### 2. Hafta
 - Nesne türleri - String, Integer, Boolean...
 - Özel karakterler
 - Karşılaştırma Operatörleri
@@ -36,7 +34,7 @@ Python Eğitim İçerikleri
 - String manipülasyonları
 
 
-3. Hafta
+### 3. Hafta
 - Diziler
 - Fonksiyonlar
 - Return kullanımı
@@ -46,18 +44,8 @@ Python Eğitim İçerikleri
 - Modül Oluşturma ve Kulanma
 
 
-4. Hafta
+### 4. Hafta
 - Recursive Functions - Özyinemeli Fonksiyonlar
 - Linear Search - Lineer Arama Algoritması
 - Binary Search - İkili Arama Algoritması
 - Time Complexity - Algoritmaların Zaman Karşılaştırmaları
-
-
-5. hafta
-- sorting sıralama algoritmaları
-- selection sort
-- insertion sort
-- bubble sort
-- merge sort
-- heap sort
-- sorting algoritmalarının çalışma zamanları

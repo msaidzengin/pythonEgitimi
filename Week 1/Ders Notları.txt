@@ -1,50 +1,79 @@
 Programlama nedir: 
-Program yapmak, bilgisayar donanımının nasıl çalışacağına şekil vermek anlamına gelir. Bilgisayarın hangi komutu hangi sırayla çalışacağını makine dili ile ona söylememiz gerekir. Bilgisayarlar ilk icat edildiğinde makine dilleri kullanılıyordu. Makine dilleri ile büyük programlar yazmak zor hal aldığı için daha sonra programlama dilleri çıktı. Programlama dillerine örnekler java,c, python, bunlar gibi onlarca hatta yüzlerce dil vardir. Bu dillerle yazdığımız yazılımları compiler'lar yani derleyiciler sayesinde derleyip makine diline çevirebiliyoruz. Makine dilini bilgisayarda çalıştırdığımizda komutları sırası ile çalıştırıyor ve sonuca ulaşıyor. 
+Program yapmak, bilgisayar donanımının nasıl çalışacağına şekil vermek anlamına gelir. 
+Bilgisayarın hangi komutu hangi sırayla çalışacağını makine dili ile ona söylememiz gerekir. 
+Bilgisayarlar ilk icat edildiğinde makine dilleri kullanılıyordu. 
+Makine dilleri ile büyük programlar yazmak zor hal aldığı için daha sonra programlama dilleri çıktı. 
+Programlama dillerine örnekler java,c, python, bunlar gibi onlarca hatta yüzlerce dil vardir. 
+Bu dillerle yazdığımız yazılımları compiler'lar yani derleyiciler sayesinde derleyip makine diline çevirebiliyoruz. 
+Makine dilini bilgisayarda çalıştırdığımizda komutları sırası ile çalıştırıyor ve sonuca ulaşıyor. 
 
 Algoritma nedir: 
-Algoritma belli bir problemi çözmek için gereken yoldur. Yazılım yaparken algoritma kurmak işin en önemli adımıdır. Yani uzun problemlerin çözüm yolu önce kağıt kalem ile veya matematik kuralları ile çözülmelidir. Algoritmanın adım adım yazılmış haline sudokod denir. Pseudo code olarak yazılır. Sudokod oluşturduktan sonra bu algoritmayı istediğimiz programlama dili ile yazıp çalıştırabiliriz. Biz bu eğitimde python kullanacagiz. Yazılım yaparken syntax önemlidir. Binlerce satır bir kodda eksik yazdığınız bir virgül programın çalışmasını engelleyebilir. Syntax programlama dilinin yazım kurallarına denir ve her dil için farklı kurallar vardır. Python dili en rahat ve en okunaklı programlama dilidir bu yüzden başlangıç için idealdir.
+Algoritma belli bir problemi çözmek için gereken yoldur. 
+Yazılım yaparken algoritma kurmak işin en önemli adımıdır. 
+Yani uzun problemlerin çözüm yolu önce kağıt kalem ile veya matematik kuralları ile çözülmelidir. 
+Algoritmanın adım adım yazılmış haline sudokod denir. Pseudo code olarak yazılır. 
+Sudokod oluşturduktan sonra bu algoritmayı istediğimiz programlama dili ile yazıp çalıştırabiliriz. 
+Biz bu eğitimde python kullanacagiz. Yazılım yaparken syntax önemlidir. 
+Binlerce satır bir kodda eksik yazdığınız bir virgül programın çalışmasını engelleyebilir. 
+Syntax programlama dilinin yazım kurallarına denir ve her dil için farklı kurallar vardır. 
+Python dili en rahat ve en okunaklı programlama dilidir bu yüzden başlangıç için idealdir.
 
 Algoritma neden önemlidir: 
 Örneğin i7 işlemcili saniyede 2 ghz işlemci gücü olan 16 gb ramli ve en son model bir bilgisayarınız var. 
 Bir de yanında çok eski 10 yıllık kötü işlemcili 1 gb ramli bir bilgisayarınız var. 
 Küçük problemlerde iyi ve yeni olan bilgisayar daha hızlı çalışır. 
 Fakat "input size" yani problemin büyüklüğü veya işlem yapma sayısı arttıkça algoritma daha çok önem kazanır. 
-Örneğin sorting yani sıralama algoritması ile bir dizi sayıyı sıralamak istiyorsunuz. Elinizde 100 milyonluk bir array var(dizi). 
-İlk bilgisayarda yani iyi olan bilgisayarda kötü algoritma kullanarak diziyi sıraladınız. Mesela insertion sort, veya selection sort. Bu algoritmalarin çalışma zamani O(n ^2) dir. 
+Örneğin sorting yani sıralama algoritması ile bir dizi sayıyı sıralamak istiyorsunuz. 
+Elinizde 100 milyonluk bir array var(dizi). 
+İlk bilgisayarda yani iyi olan bilgisayarda kötü algoritma kullanarak diziyi sıraladınız. 
+Mesela insertion sort, veya selection sort. Bu algoritmalarin çalışma zamani O(n ^2) dir. 
 Kötü olan bilgisayarda aynı arrayi quick sort ile sıraladınız. Bu sıralama algoritmasi daha hızlıdır. 
 İyi olan bilgisayara göre belki 40-50 kat daha hızlı sonuç verecektir. Algoritma bu yüzden önemlidir.
 
 Programlamanın temel mantığı ve yapısı: 
-İlk başta dediğimiz gibi önce problemi aklımızla ve elimizle çözüp sonra programlamaya geçmeliyiz. Yani çözüm yolunu kağıt kalem ile bulup sonra kod yazmalıyız. 
+İlk başta dediğimiz gibi önce problemi aklımızla ve elimizle çözüp sonra programlamaya geçmeliyiz. 
+Yani çözüm yolunu kağıt kalem ile bulup sonra kod yazmalıyız. 
 
 Makine kodu nedir: 
-İlk başta söylemiştik. Bilgisayar donanımı 0 ve 1 ler ile çalışır. Makine dilinde her işlemci türüne göre işlem türleri vardır. Bu türler topla, çıkar, belleğe yaz, beklekten oku, gibi temel işlemlerdir. Makine dili kodunu işlemci 0 ve 1'ler olarak anlar. Makine dilini 01'lere dönüştürür. Ve bu 01 serisini bit bit kontrol ederek işler. Bilgisayarda 32 bit veya 64 bit işlemci vardır demek 32li veya 64 lü seriler halinde veriler işlemciye gider. 
+İlk başta söylemiştik. Bilgisayar donanımı 0 ve 1 ler ile çalışır. 
+Makine dilinde her işlemci türüne göre işlem türleri vardır. 
+Bu türler topla, çıkar, belleğe yaz, beklekten oku, gibi temel işlemlerdir. 
+Makine dili kodunu işlemci 0 ve 1'ler olarak anlar. Makine dilini 01'lere dönüştürür. 
+Ve bu 01 serisini bit bit kontrol ederek işler. 
+Bilgisayarda 32 bit veya 64 bit işlemci vardır demek 32li veya 64 lü seriler halinde veriler işlemciye gider. 
 
 Programlama dili örnekleri: 
 Java ,c ,c++, python, ruby, bash...
 Siz de örnek verebilirsiniz.
 
 Programlama dilleri ile neler yapılır: 
-Yazılım hayatımızın her yerindedir. Web siteleri yapabiliriz. Bilgisayar programlari, oyunlar, araba yazılımları, uçak yazılımları, silah ve askeri teknoloji, virüsler, virus programları...
+Yazılım hayatımızın her yerindedir. Web siteleri yapabiliriz. 
+Bilgisayar programlari, oyunlar, araba yazılımları, uçak yazılımları, silah ve askeri teknoloji, virüsler, virus programları...
 Siz de örnek verebilirsiniz. 
 
 Compiler nedir: 
 Derleyici demektir. 
-Yazdığımız bir programı compiler sayesinde farklı dile dönüştürürüz. Örneğin makine diline dönüştürmemiz gerekir. Java kullanırken compiler byte kod oluşturur. Byte kod java virtual machine'in anlaması içindir.
+Yazdığımız bir programı compiler sayesinde farklı dile dönüştürürüz. 
+Örneğin makine diline dönüştürmemiz gerekir. Java kullanırken compiler byte kod oluşturur. 
+Byte kod java virtual machine'in anlaması içindir.
 
 İnterpreter nedir: 
 Yorumlayıcı demektir. 
-Kod yazarken gerçek zamanlı aşama aşama kodu yorumlar. Hata varsa bize uyarı verir. Yazım yanlışı (syntax hatası görürse) uyarır ve biz düzeltiriz. 
+Kod yazarken gerçek zamanlı aşama aşama kodu yorumlar. Hata varsa bize uyarı verir. 
+Yazım yanlışı (syntax hatası görürse) uyarır ve biz düzeltiriz. 
 
 İndentation nedir: 
 Girinti demektir. 
 Program yazarken bazı programlama dillerinde boşlukların ve satırlarin hiçbir önemi yoktur. 
 Ama okunaklı olması için bazı kurallar vardır. Bunlara dikkat etmek kodun sürdürülebirliğini arttırır. 
-Örneğin sizin kodunuzu okuyan başka bir yazılımcı kolayca anlayabilmelidir. Google gibi yazılım şirketlerinde binlerce yazılımcı çalışır ve aynı kodu yüzlerce mühendis okuyup değiştirebilmelidir. 
+Örneğin sizin kodunuzu okuyan başka bir yazılımcı kolayca anlayabilmelidir. 
+Google gibi yazılım şirketlerinde binlerce yazılımcı çalışır ve aynı kodu yüzlerce mühendis okuyup değiştirebilmelidir. 
 Bu yüzden bu kurallar önemlidir. 
 Program çalışmasını değistirmez ama yine de bu kurallara uymak gerekir. 
-Biz python dilini kullancağız, pythonda boşluk ve satırlar daha önemlidir. Okunaklı olması için süslü parantez ve parantezler yerine boşluklar kullanılır. 
-Yani pythonda yanlış boşluk ve tab koymanız syntax hatası demektir veya kodun istemediğiniz bir şekilde çalışmasını sağlar.
+Biz python dilini kullancağız, pythonda boşluk ve satırlar daha önemlidir. 
+Okunaklı olması için süslü parantez ve parantezler yerine boşluklar kullanılır. 
+Yani pythonda yanlış boşluk ve tab koymanız syntax hatası demektir 
+veya kodun istemediğiniz bir şekilde çalışmasını sağlar.
 
 
 Variable değişken nedir: 
@@ -71,10 +100,13 @@ Bu değer direk integer olarak kaydedilir.
 
 
 İf else: 
-Programlama dillerinde parametre olarak bir değer alınmazsa, yani kullanıcıdan input (girdi) alınmadan çalıştırılırsa sürekli aynı sonucu verir. 
+Programlama dillerinde parametre olarak bir değer alınmazsa, 
+yani kullanıcıdan input (girdi) alınmadan çalıştırılırsa sürekli aynı sonucu verir. 
 Veya örneğin değişen bir değer kullanılmazsa (tarih saat vs) her zaman aynı sonucu verir. 
-Programkarın neredeyse hepsinde if else yapısı kullanılır. Yani "eğer ve değilse" kodları. Bu yapı kodunuzun dallanmasını sağlar, yani durumlara göre farklı sonuçlar vermesini sağlar.
-Örneğin yaşınıza göre ilerleyen bir program yazacaksanız. Yaşı if else ile kontrol edersiniz ve hangisi doğru ise kod oradan devam eder. 
+Programkarın neredeyse hepsinde if else yapısı kullanılır. Yani "eğer ve değilse" kodları. 
+Bu yapı kodunuzun dallanmasını sağlar, yani durumlara göre farklı sonuçlar vermesini sağlar.
+Örneğin yaşınıza göre ilerleyen bir program yazacaksanız. 
+Yaşı if else ile kontrol edersiniz ve hangisi doğru ise kod oradan devam eder. 
 İf yas > 10
   ...
 Else 

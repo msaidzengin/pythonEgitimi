@@ -125,3 +125,10 @@ print(ciftMi(3))
 
 
 
+def toplam(*sayilar):
+    toplam = 0
+    for i in sayilar:
+        toplam += i
+    return toplam
+
+print ( toplam(1,2,4,5,7) )

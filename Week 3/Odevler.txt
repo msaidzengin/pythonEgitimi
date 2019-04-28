@@ -23,3 +23,32 @@ Daha sonra metodu 5 sayısı ile çağırınız.
 Soru 5: Dördüncü soruda yazdığınız fonksiyonu kullanarak 1-20 arasındaki tüm sayıların faktöriyelini ekrana basın.
 
 
+Soru 6: Parametre olarak bir dizi alan fonksiyon yazın ve maximum sayıyı return ediniz.
+
+
+Soru 7: Parametre olarak bir dizi alan fonksiyon yazın ve minimum sayıyı return ediniz.
+
+
+Soru 8: 
+Derste preudo code(sudo kod)'unu yazdığımız metodu python dili ile yazınız.
+Soru şöyleydi: İnput olarak bir paragraf alın. 
+Paragraftaki tüm kelimeleri baş harfi büyük olacak şekilde ekrana yazın.
+Sudo kod: 
+paragraf = input al.
+dizi = paragraf.split(" ")
+for kelime in dizi
+    kelime[0].upper
+    print kelime
+
+Buradaki split metodu pythonda var. Fakat isteyenler split metodunu da kendi yazabilir.
+Split metodu için sudokod:
+def split(paragraf, karakter)
+    dizi = []
+    kelime = ""
+    for c in paragraf:
+        if c != karakter:
+            kelime += c
+        else:
+            dizi.add (kelime)
+            kelime = ""
+Bu sudokodunu yazdığımız split metodunu split(paragraf, ' ') şeklinde çağırabilirsiniz.

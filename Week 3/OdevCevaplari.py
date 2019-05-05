@@ -157,6 +157,7 @@ def ayir(paragraf):
         else:
             kelimeler.append(kelime)
             kelime = ""
+    kelimeler.append(kelime) # bu satırı paragraf sonunda boşluk olmadığı için yazdık
     return kelimeler
 
 # ayirma metodunu split'teki gibi istediğimiz bir karakterden ayırmak istersek;
@@ -170,6 +171,7 @@ def ayir2(paragraf, x):
         else:
             kelimeler.append(kelime)
             kelime = ""
+    kelimeler.append(kelime) # bu satırı paragraf sonunda boşluk olmadığı için yazdık
     return kelimeler
 
 """

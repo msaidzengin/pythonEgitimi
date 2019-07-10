@@ -1,0 +1,16 @@
+1) Bir stringin içinde 'a' olup olmadýðýný 
+recursive bir þekilde bulun.
+
+2) Hileli bir zar yapýnýz.
+Yüzde 50 ihtimalle 6,
+yüzde 50 ihtimalle 1,2,3,4,5 gelsin.
+
+3) Bir linear search fonksiyonu yazýn.
+Doðrusal arama, listedeki her elemaný 
+karþýlaþtýran ve varsa True dönen bir metod
+olsun.
+
+4) Input olarak bir cümle alýn ve
+cümleyi büyüklü küçüklü þekilde print edin
+Örnek: burasý btk.
+çýktý: BuRaSý bTk.

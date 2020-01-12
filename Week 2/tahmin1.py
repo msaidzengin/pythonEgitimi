@@ -8,9 +8,9 @@ while cevap != randomSayi:
     tahminSayisi += 1
     cevap = int(input("tahmininin nedir: "))
     if cevap < randomSayi:
-        print("çok küçük söyledin")
+        print("cok kucuk soyledin")
     elif cevap > randomSayi:
-        print("çok büyük")
+        print("cok buyuk")
     
-print("Bildin! Random sayı =", randomSayi)
-print("Tahmin sayısı:", tahminSayisi)
+print("Bildin! Random sayi =", randomSayi)
+print("Tahmin sayisi:", tahminSayisi)

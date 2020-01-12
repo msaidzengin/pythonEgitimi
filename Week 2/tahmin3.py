@@ -5,7 +5,7 @@ tahmin = 0
 x = -1
 y = 200
 cevap = ""
-tutulanSayi = int(input("bir sayı tut: "))
+tutulanSayi = int(input("bir sayi tut: "))
 
 while tahmin != tutulanSayi:
     counter += 1
@@ -17,5 +17,5 @@ while tahmin != tutulanSayi:
         y = tahmin
 
         
-print("Buldum! Tahmin ettiğin sayı:", tahmin)
-print("Tahmin sayısı", counter)
+print("Buldum! Tahmin ettigin sayi:", tahmin)
+print("Tahmin sayisi", counter)

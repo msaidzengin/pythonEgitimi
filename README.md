@@ -1,5 +1,35 @@
-# BTK Python Eğitimi
+# BTK Akademi Python Eğitim İçeriği
 
+## 1. Seviye
+
+## 2. Seviye
+- Running Time
+- Time Complexity
+- Space Complexity
+- Recursion
+##### Veri Yapıları
+- Arrays
+- Stacks
+- Queues
+- Linked Lists
+- Trees
+- Hash Tables
+- Graphs
+##### Algorithms
+- Linear Search
+- Binary Search
+- Selection Sort
+- Insertion Sort
+- Bubble Sort
+- Merge Sort
+- Heap Sort
+- Other sorting algorithms
+- Binary Search Tree
+- BFS and DFS
+- AVL
+
+
+## 3. Seviye
 
 ### 1. Hafta
 - Programlama nedir?
@@ -49,3 +79,13 @@
 - Linear Search - Lineer Arama Algoritması
 - Binary Search - İkili Arama Algoritması
 - Time Complexity - Algoritmaların Zaman Karşılaştırmaları
+
+
+## Contact
+
+msaidzengin@gmail.com
+
+
+## Links
+
+https://visualgo.net/en

@@ -37,7 +37,7 @@
 - Kütüphane kullanımı
 - Modül Oluşturma ve Kulanma
 - Random password generation application
-- Number guessing game with random
+- Number guessing game with random library
 #### 4. Hafta
 - Messaging application with sockets
 - Recursive Functions - Özyinemeli Fonksiyonlar
@@ -76,12 +76,15 @@
 - Data Mining
 - Data Processing
 - Mongo DB
-
+- Django
+- GitHub
 
 ## 3. Seviye
 - Natural Language Process (NLP)
 - Recommender Systems (RS)
 - Image Processing
+- Machine Learning
+- AI - ML - DL Applications
 
 
 

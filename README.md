@@ -95,4 +95,10 @@ msaidzengin@gmail.com
 
 ## Links
 
-https://visualgo.net/en
+- bit.ly/btk-python
+- bit.ly/btk-uni-python
+- bit.ly/btk-python-uni
+- bit.ly/python-sinav
+- bit.ly/sinav-python
+- bit.ly/python-uni
+- bit.ly/btk-python-sinav

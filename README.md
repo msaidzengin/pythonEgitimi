@@ -56,9 +56,10 @@
 - Stacks
 - Queues
 - Linked Lists
-- Trees
 - Hash Tables
+- Trees
 - Graphs
+
 ##### Algorithms
 - Linear Search
 - Binary Search
@@ -95,10 +96,10 @@ msaidzengin@gmail.com
 
 ## Links
 
-- bit.ly/btk-python
-- bit.ly/btk-uni-python
-- bit.ly/btk-python-uni
-- bit.ly/python-sinav
-- bit.ly/sinav-python
-- bit.ly/python-uni
-- bit.ly/btk-python-sinav
+- https://bit.ly/btk-python
+- https://bit.ly/python-uni
+- https://bit.ly/python-sinav
+- https://bit.ly/sinav-python
+- https://bit.ly/btk-uni-python
+- https://bit.ly/btk-python-uni
+- https://bit.ly/btk-python-sinav

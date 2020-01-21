@@ -44,6 +44,12 @@
 - Linear Search - Lineer Arama Algoritması
 - Binary Search - İkili Arama Algoritması
 - Time Complexity - Algoritmaların Zaman Karşılaştırmaları
+#### 5. Hafta
+- Tkinter ve PAGE ile gui tasarlama
+- Dosya okuma ve yazma 
+- Excel okuma ve yazma
+- Pandas, numpy, nltk kütüphaneleri kullanımı
+- Executable oluşturma
 
 
 ## 2. Seviye

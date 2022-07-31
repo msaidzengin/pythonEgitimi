@@ -1,6 +1,8 @@
-import random
 import math
+import random
+
 import kutuphane as k
+
 """
 cumle = "burası btk."
 yeni = ""
@@ -89,22 +91,3 @@ for i in range(count):
 print(sıralıListe)
 
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

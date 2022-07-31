@@ -57,12 +57,12 @@ Yazdığımız bir programı compiler sayesinde farklı dile dönüştürürüz.
 Örneğin makine diline dönüştürmemiz gerekir. Java kullanırken compiler byte kod oluşturur. 
 Byte kod java virtual machine'in anlaması içindir.
 
-İnterpreter nedir: 
+Interpreter nedir: 
 Yorumlayıcı demektir. 
 Kod yazarken gerçek zamanlı aşama aşama kodu yorumlar. Hata varsa bize uyarı verir. 
 Yazım yanlışı (syntax hatası görürse) uyarır ve biz düzeltiriz. 
 
-İndentation nedir: 
+Indentation nedir: 
 Girinti demektir. 
 Program yazarken bazı programlama dillerinde boşlukların ve satırlarin hiçbir önemi yoktur. 
 Ama okunaklı olması için bazı kurallar vardır. Bunlara dikkat etmek kodun sürdürülebirliğini arttırır. 
@@ -99,7 +99,7 @@ yas = 5
 Bu değer direk integer olarak kaydedilir. 
 
 
-İf else: 
+If else: 
 Programlama dillerinde parametre olarak bir değer alınmazsa, 
 yani kullanıcıdan input (girdi) alınmadan çalıştırılırsa sürekli aynı sonucu verir. 
 Veya örneğin değişen bir değer kullanılmazsa (tarih saat vs) her zaman aynı sonucu verir. 

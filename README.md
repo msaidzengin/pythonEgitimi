@@ -4,33 +4,46 @@ Türkçe Python ders notları, örnek kodlar ve alıştırmalar.
 
 ## Nasıl başlanır
 
-Python 3 kurulu olsun. Notebook'lar Python 3.6 ile hazırlandı. Kurulum adımları `python101/10-Slides/01-Python Kurulumu.pdf` dosyasındadır.
-
-Depoyu indirip ilk örneği çalıştırın:
+1. Python'u kurun. [Python Kurulumu](python101/10-Slides/01-Python%20Kurulumu.pdf) slaydı Anaconda ile Python 3.7 kullanır. İndirme adresi slaytta yazılıdır: https://www.anaconda.com/distribution/
+2. Depoyu indirin. Git varsa:
 
 ```bash
 git clone https://github.com/msaidzengin/pythonEgitimi.git
 cd pythonEgitimi
-python3 python101/01-Basics/01-Hello.py
 ```
 
-Ekranda `Merhaba Dünya!` yazısı görünür. Windows'ta aynı komutta `python3` yerine `python` kullanın.
+Git yoksa bu sayfadaki Code menüsünden ZIP indirip açın ve o klasöre geçin.
 
-Türkçe başlangıç dersi `python101` klasöründedir. Sırayla ilerleyin:
-
-1. `python101/01-Basics/07-Ders Notları.txt` dosyasını okuyun.
-2. `python101/01-Basics` içindeki `.py` dosyalarını numaralarına göre çalıştırın.
-3. Aynı şekilde `02-Loops`, `03-IfElse`, `04-Functions`, `05-Algorithms`, `06-OOP`, `07-Sockets` ve `08-Random` klasörlerine geçin.
-4. Ödevler `python101/09-Homeworks` içindedir. Slaytlar `python101/10-Slides` içindedir.
-
-Notebook dersleri depo kökündeki numaralı klasörlerdedir. `01-Objects and Data Structures` ile başlayın, `16-Recommender Systems` klasörüne kadar aynı sırayla gidin. Açmak için Jupyter gerekir:
+3. İlk örneği çalıştırın. Anaconda Prompt veya terminalde:
 
 ```bash
-python3 -m pip install notebook
-python3 -m notebook
+python python101/01-Basics/01-Hello.py
 ```
 
-Sonra `01-Objects and Data Structures/01-Numbers.ipynb` dosyasını açın. İleri bir derste `import` satırı eksik kütüphane hatası verirse o paketi kurun. Karşılaşılacak paketler: Pillow, PyPDF2, beautifulsoup4, requests, send2trash, numpy, matplotlib, pandas, scikit-learn ve nltk.
+Komut bulunamazsa `python` yerine `python3` yazın. Ekranda `Merhaba Dünya!` görünür.
+
+4. Türkçe derse `python101/01-Basics/07-Ders Notları.txt` ile devam edin. Aynı klasördeki `.py` dosyalarını numara sırasıyla çalıştırın. Adında boşluk olan dosyada yolu tırnak içine alın:
+
+```bash
+python "python101/01-Basics/03-Math operators.py"
+```
+
+Sonraki klasörler `02-Loops`, `03-IfElse`, `04-Functions`, `05-Algorithms`, `06-OOP`, `07-Sockets` ve `08-Random` şeklindedir. Ödevler `python101/09-Homeworks`, slaytlar `python101/10-Slides` içindedir.
+
+5. Notebook dersleri kökteki numaralı klasörlerdedir. Anaconda Jupyter'i de kurar. Depo klasöründe şunu çalıştırın:
+
+```bash
+jupyter notebook
+```
+
+`jupyter` bulunamazsa:
+
+```bash
+python -m pip install notebook
+python -m notebook
+```
+
+Açılan sayfada `01-Objects and Data Structures/01-Numbers.ipynb` dosyasını açın. Klasörler `16-Recommender Systems` klasörüne kadar numara sırasıyla ilerler. İleri bir notebook eksik paket hatası verirse o paketi kurun. Bu dersteki paket adları: Pillow, PyPDF2, beautifulsoup4, requests, send2trash, numpy, matplotlib, pandas, scikit-learn ve nltk.
 
 ## 1. Seviye
 #### 1. Hafta

@@ -1,5 +1,37 @@
 # BTK Akademi Python Eğitim İçeriği
 
+Türkçe Python ders notları, örnek kodlar ve alıştırmalar.
+
+## Nasıl başlanır
+
+Python 3 kurulu olsun. Notebook'lar Python 3.6 ile hazırlandı. Kurulum adımları `python101/10-Slides/01-Python Kurulumu.pdf` dosyasındadır.
+
+Depoyu indirip ilk örneği çalıştırın:
+
+```bash
+git clone https://github.com/msaidzengin/pythonEgitimi.git
+cd pythonEgitimi
+python3 python101/01-Basics/01-Hello.py
+```
+
+Ekranda `Merhaba Dünya!` yazısı görünür. Windows'ta aynı komutta `python3` yerine `python` kullanın.
+
+Türkçe başlangıç dersi `python101` klasöründedir. Sırayla ilerleyin:
+
+1. `python101/01-Basics/07-Ders Notları.txt` dosyasını okuyun.
+2. `python101/01-Basics` içindeki `.py` dosyalarını numaralarına göre çalıştırın.
+3. Aynı şekilde `02-Loops`, `03-IfElse`, `04-Functions`, `05-Algorithms`, `06-OOP`, `07-Sockets` ve `08-Random` klasörlerine geçin.
+4. Ödevler `python101/09-Homeworks` içindedir. Slaytlar `python101/10-Slides` içindedir.
+
+Notebook dersleri depo kökündeki numaralı klasörlerdedir. `01-Objects and Data Structures` ile başlayın, `16-Recommender Systems` klasörüne kadar aynı sırayla gidin. Açmak için Jupyter gerekir:
+
+```bash
+python3 -m pip install notebook
+python3 -m notebook
+```
+
+Sonra `01-Objects and Data Structures/01-Numbers.ipynb` dosyasını açın. İleri bir derste `import` satırı eksik kütüphane hatası verirse o paketi kurun. Karşılaşılacak paketler: Pillow, PyPDF2, beautifulsoup4, requests, send2trash, numpy, matplotlib, pandas, scikit-learn ve nltk.
+
 ## 1. Seviye
 #### 1. Hafta
 - Programlama nedir?
